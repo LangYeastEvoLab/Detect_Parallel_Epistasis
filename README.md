@@ -6,4 +6,4 @@ These scripts are intended to analyze datasets of mutated genes in experimental 
 
 For detecting overrepresented genes, run the Recurrence Script.R with the supplied GFF annotation file or another annotation file in the same format. 
 
-To find overrepresented gene pairs via Mutual Information, run 
+To find overrepresented gene pairs via Mutual Information, source all R scripts except "Recurrence Script.R". Run ** with inputs: raw data, the output of Construct_Pairs(raw data), and the number of replicate simulations desired. 
