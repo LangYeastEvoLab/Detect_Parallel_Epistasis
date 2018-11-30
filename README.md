@@ -1,8 +1,10 @@
 # Detect_Parallel_Epistasis
 
-*This code accompanies Fisher, Kryazhimskiy & Lang, 2019, Philisophical Transactions B. and was written to detect pairs of genes mutated in the same background more often than expected by chance in experimental evolution datasets. Using the approach outlined in the accompanying paper, this script takes a dataset of evolved genotypes and returns a table of observed and simulated mutual information (MI)*
+This code accompanies *Fisher, Kryazhimskiy & Lang, 2019, Philisophical Transactions B.* and was written to detect pairs of genes mutated in the same background more often than expected by chance in experimental evolution datasets.
 
+#Usage 
 
+##Data formatting 
 
 
 
