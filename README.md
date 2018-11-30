@@ -1,10 +1,10 @@
 # Detect_Parallel_Epistasis
 
-These scripts accompany Fisher, Kryazhimskiy & Lang (2018). 
+*This code accompanies Fisher, Kryazhimskiy & Lang, 2019, Philisophical Transactions B. and was written to detect pairs of genes mutated in the same background more often than expected by chance in experimental evolution datasets. Using the approach outlined in the accompanying paper, this script takes a dataset of evolved genotypes and returns a table of observed and simulated mutual information (MI)*
 
-These scripts are intended to analyze datasets of mutated genes in experimental evolution studies. Raw datasets should be formatted as tables wherein column names are clone/sample names and rows contain mutated gene names. Missing data must be supplied as NA values to make all genotype vectors equal length. 
 
-Scripts are formatted to be run with RStudio. Modify to run in a shell. 
+
+
 
 For detecting overrepresented genes, run the Recurrence Script.R with the supplied GFF annotation file or another annotation file in the same format. 
 
