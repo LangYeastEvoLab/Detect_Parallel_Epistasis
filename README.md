@@ -1,7 +1,6 @@
 # Detect_Parallel_Epistasis
 
 This code accompanies *Fisher, Kryazhimskiy & Lang, 2019, Philisophical Transactions B.* and was written to detect pairs of genes mutated in the same background more often than expected by chance in experimental evolution datasets.
----
 
 # Usage 
 
@@ -14,7 +13,9 @@ Data should be provided in the form of a tab seperated (tsv) file. Each column s
     - Mutation datasets should first be filtered for medium to high impact coding sequence mutations (remove synonymous and intergenic mutations).
     - Genes present in the dataset only once (ideally a higher threshold should be imposed) should be removed. 
  
+## Running the analysis 
 
+1) Clone the repository. `Git clone 
 
 
 For detecting overrepresented genes, run the Recurrence Script.R with the supplied GFF annotation file or another annotation file in the same format. 
