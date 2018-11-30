@@ -4,9 +4,9 @@ This code accompanies *Fisher, Kryazhimskiy & Lang, 2019, Philisophical Transact
 
 # Usage 
 
-## Data formatting
+## Formatting genotype data
 
-Data should be provided in the form of a tab seperated (tsv) file. Each column should contain the genes categories mutated in an individual clone/isolate. An example raw dataset is provided. 
+Data should be provided in the form of a tab seperated (tsv) file. Each column should contain the names of genes mutated in an individual clone/isolate. An example raw dataset is provided. 
   - No column should contain duplicate gene names, two or more mutations to one gene are treated the same as one.
   - Clones/isolates that are related (derived from the same population) should not be included. Choose just one genotype from those populations. 
   - To reduce noise
@@ -28,7 +28,7 @@ R and the following R packages:
 
 Example - using example data provided and 1000 simulations: 
 
-`Rscript --vanilla Parallel_GI.R ~/raw_data.tsv 1000`
+`Rscript --vanilla Parallel_GI.R ~/example_genotype_data.tsv 1000`
 
 
 ## Files generated 
