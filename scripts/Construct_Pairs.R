@@ -15,7 +15,6 @@
 #matrixStats must be loaded before plyr 
 
 Construct_Pairs = function(Genes_by_clone_dataframe) {
-  #library(matrixStats) 
   #library(plyr)
   
   #first set up an empty dataframe
@@ -109,6 +108,6 @@ Construct_Pairs = function(Genes_by_clone_dataframe) {
  I.df<- data.frame(All.Pairs[1], I1.1, I0.1, I1.0, I0.0)
  I.df$I<- (rowSums(I.df[2:5]))
  I.df<-I.df[c(1, 6)]
- colnames(I.df)[2]<- "Obs. I"
+ colnames(I.df)[2]<- "Observed  MI"
   return(I.df)
 }
