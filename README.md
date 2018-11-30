@@ -47,5 +47,3 @@ Example - passing the Pairwise_Mutual_Information.tsv file generated in the abov
 3) *MI_distribution.pdf* histogram of the null distribution of N I<sub>tot</sub> values with the observed I<sub>tot</sub> plotted as a red line. 
 
 4) *Pairwise_MI_p_values.tsv* file containing a table with all unique gene pairs, observed mutual information for each pair, mean simulated mutual information for each pair, and the p value of the observed MI based on N simulations of MI. 
-
-5) *Pairwise_pval_distribution.pdf* histogram of the distribution of p values for pairwise MI values. 
