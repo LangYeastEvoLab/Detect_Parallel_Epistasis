@@ -15,7 +15,7 @@ Data should be provided in the form of a tab seperated (tsv) file. Each column s
  
 ## Running the analysis 
 
-### Dependencies 
+*Dependencies* 
 R and the following R packages: 
 - plyr
 - pracma
@@ -33,6 +33,8 @@ Example - using example data provided and 1000 simulations:
 
 ## Files generated 
 
-1) *Pairwise_Mutual_Information.tsv* file containing a table with all unique gene pairs, observed mutual information for each pair, and N columns containing simulated mutual information for N simulations. The sum of the observed MI column is the observed I<sub>tot</sub> value. 
+1) *Pairwise_Mutual_Information.tsv* file containing a table with all unique gene pairs, observed mutual information for each pair, and N columns containing simulated mutual information for N simulations. The sum of the observed MI column is the observed I<sub>tot</sub> value.
+
 2)*Simulated_Total_I_vector.tsv"* file containing a vector of N I<sub>tot</sub> from N simulations. 
+
 3)*MI_distribution.pdf* histogram of the null distribution of N I<sub>tot</sub> values with the observed I<sub>tot</sub> plotted as a red line. 
