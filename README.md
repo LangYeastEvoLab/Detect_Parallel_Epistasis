@@ -15,9 +15,24 @@ Data should be provided in the form of a tab seperated (tsv) file. Each column s
  
 ## Running the analysis 
 
-1) Clone the repository. `Git clone 
+### Dependencies 
+R and the following R packages: 
+- plyr
+- pracma
+
+1) Clone the repository. 
+
+`Git clone https://github.com/LangYeastEvoLab/Detect_Parallel_Epistasis.git` 
+
+2) From the Detect_Parallel_Epistasis directory run Parallel_GI.R as an R script using R --vanilla with raw data and number of simulations as arguments.
+
+Example - using example data provided and 1000 simulations: 
+
+`Rscript --vanilla Parallel_GI.R ~/raw_data.tsv 1000`
 
 
-For detecting overrepresented genes, run the Recurrence Script.R with the supplied GFF annotation file or another annotation file in the same format. 
+## Files generated 
 
-To find overrepresented gene pairs via Mutual Information, source all R scripts except "Recurrence Script.R". Run Run_sampling_for_Mutual_Information.R with inputs: raw data, the output of Construct_Pairs(raw data), and the number of replicate simulations desired. 
+1) *Pairwise_Mutual_Information.tsv* file containing a table with all unique gene pairs, observed mutual information for each pair, and N columns containing simulated mutual information for N simulations. The sum of the observed MI column is the observed I<sub>tot</sub> value. 
+2)*Simulated_Total_I_vector.tsv"* file containing a vector of N I<sub>tot</sub> from N simulations. 
+3)*MI_distribution.pdf* histogram of the null distribution of N I<sub>tot</sub> values with the observed I<sub>tot</sub> plotted as a red line. 
