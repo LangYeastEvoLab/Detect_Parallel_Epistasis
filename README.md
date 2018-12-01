@@ -28,7 +28,7 @@ R and the following R packages:
 
 Example - using example data provided and 10 simulations: 
 
-`Rscript --vanilla Parallel_GI_Itot.R ~/example_genotype_data.tsv 10`
+`Rscript --vanilla Parallel_GI_Itot.R Example_genotype_data.tsv 10`
 
 3) Run Parallel_GI_pairwise_MI.R as an R script using R --vanilla with the result of the previous script as an argument. 
 
