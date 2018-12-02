@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-#run by calling Rscript --vanilla Parallel_GI.R raw_data.tsv desired_number_simulations(supplied as integer) out.tsv
+#run by calling Rscript --vanilla Parallel_GI_Itot.R raw_data.tsv desired_number_simulations(supplied as integer)
 #if no simulations are desired enter an argument of 0 for simulations
 
 #raw input data should be tab seperated (tsv) file with clones as columns and gene names in rows in format below: 
