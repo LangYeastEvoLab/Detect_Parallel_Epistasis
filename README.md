@@ -18,13 +18,24 @@ Data should be provided in the form of a tab seperated (tsv) file. Each column s
 *Dependencies*  
 R and the following R packages: 
 - plyr
+*To install* 
+`R`  
+> `install.packages("plyr")`
 - pracma
+*To install*
+`R`
+>`install.packages("pracma")`
 
 1) Clone the repository. 
 
 `Git clone https://github.com/LangYeastEvoLab/Detect_Parallel_Epistasis.git` 
 
 2) From the Detect_Parallel_Epistasis directory run Parallel_GI_Itot.R as an R script using R --vanilla with raw data and number of simulations as arguments.
+
+*Note for windows users - first ensure R is in your path by:
+going to "Control Panel" -> "Edit the system environment variables"
+click on "Environment variables", edit "path" on "System variables" "New"
+Append the path (it should be something like "C:\Program Files\R\R-3.5.1\bin\x64")*
 
 Example - using example data provided and 10 simulations: 
 
@@ -34,7 +45,7 @@ Example - using example data provided and 10 simulations:
 
 Example - passing the Pairwise_Mutual_Information.tsv file generated in the above example 
 
-`R script --vanilla Parallel_GI_pairwise_MI.R Pairwise_Mutual_Information.tsv`
+`Rscript --vanilla Parallel_GI_pairwise_MI.R Pairwise_Mutual_Information.tsv`
 
 ## Files generated 
 
