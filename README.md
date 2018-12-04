@@ -1,6 +1,6 @@
 # Detect_Parallel_Epistasis
 
-This code accompanies *Fisher, Kryazhimskiy & Lang, 2019, Philisophical Transactions B.* and was written to detect pairs of genes mutated in the same background more often than expected by chance in experimental evolution datasets.
+This code accompanies *Fisher, Kryazhimskiy & Lang, 2019, Phil Trans B.* and was written to detect pairs of genes mutated in the same background more often than expected by chance in experimental evolution datasets.
 
 # Usage 
 
