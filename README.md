@@ -16,15 +16,15 @@ Data should be provided in the form of a tab seperated (tsv) file. Each column s
 ## Running the analysis 
 
 *Dependencies*  
-R and the following R packages: 
-- plyr
-*To install* 
+R and the following R packages:  
+- plyr  
+*To install*  
 `R`  
-> `install.packages("plyr")`
-- pracma
-*To install*
-`R`
->`install.packages("pracma")`
+> `install.packages("plyr")`  
+- pracma  
+*To install*  
+`R`  
+>`install.packages("pracma")`  
 
 1) Clone the repository. 
 
