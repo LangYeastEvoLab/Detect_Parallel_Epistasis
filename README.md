@@ -20,13 +20,13 @@ R and the following R packages:
 - plyr  
 *To install*  
 `R`  
-`> install.packages("plyr")` 
-`quit()`
+`> install.packages("plyr")`  
+`quit()`  
 - pracma  
 *To install*  
 `R`  
 `> install.packages("pracma")`  
-`quit()`
+`quit()`  
 
 1) Clone the repository. 
 
